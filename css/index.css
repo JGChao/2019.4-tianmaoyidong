@@ -1,0 +1,504 @@
+.ztailan{
+    width: 7.5rem;
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    background-color: #FE0435;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+.ztailan .icon-fenlei8{
+    font-size: 0.4rem;
+    color: #FDB6C3;
+    line-height: 0.88rem;
+    float: left;
+}
+.ztailan .tmtu{
+    width: 2.37rem;
+    height: 0.41rem;
+    /* background-color: yellow; */
+    float: left;
+    margin-top: 0.235rem;
+    margin-left: 1.85rem;
+}
+.ztailan .tmtu img{
+    width: 2.37rem;
+    height: 0.41rem;   
+}
+.ztailan .s1{
+    font-size: 0.14rem;
+    color: #fff;
+    float: right;
+    line-height: 0.88rem;
+}
+/* 搜索框 */
+.ssk{
+    width: 7.5rem;
+    height: 0.92rem;
+    background-color:#FD0734;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0.88rem;
+    z-index: 5;
+}
+.ssk input{
+    width: 7.02rem;
+    height: 0.7rem;
+    border: 0;
+    outline: none;
+    border-radius: 0.1rem;
+}
+[placeholder]{
+    font-size: 0.14rem;
+    color:#BCC1C0;
+    text-indent: 2.5em;
+}
+.ssk .icon-fangdajing{
+    font-size: 0.4rem;
+    color: #BCC1C0;
+    position: absolute;
+    top: 0.16rem;
+    left: 0.3rem;
+
+}
+/* 图标 */
+.logo{
+    width: 7.5rem;
+    height: 1.56rem;
+    background-color:#FEFEFE;
+    margin-top: 1.8rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.logo .leib{
+    width: 1.4rem;
+    height: 1.56rem;
+    background-color:#FEFEFE;
+    float: left;
+    text-align: center;
+}
+.logo .leib .tu{
+    width: 0.96rem;
+    height: 0.96rem;
+    margin: 0.1rem 0.22rem 0.15rem 0.22rem;
+    background-color:#FEFEFE;
+}
+.logo .leib .tu img{
+    width: 0.96rem;
+    height: 0.96rem;
+}
+.logo .leib .s2{
+    font-size: 0.26rem;
+    color:#000;   
+}
+/* 轮播图 */
+.banner{
+    width: 7.5rem;
+    height: 2.845rem;
+    background-color:#FEFEFE;
+    padding: 0.2rem 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+}
+.banner .bannertu{
+    width: 7.02rem;
+    height: 2.645rem;
+    background-color: yellow;
+}
+.banner .bannertu img{
+    width: 7.02rem;
+    height: 2.645rem;
+}
+/* 优惠券 */
+.youhui{
+    width: 7.5rem;
+    height: 3.6rem;
+    background-color: #FEFEFE;
+    margin-top: 0.29rem;
+}
+.youhui img{
+    width: 7.5rem;
+    height: 3.6rem;
+}
+/* 限时抢购 */
+.flash{
+    width: 7.5rem;
+    height: auto;
+    background-color:#FEFEFE;
+    margin-top: 0.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.flash .block{
+    width: 3.45rem;
+    height: 2.57rem;
+    background-image: url(../img/bj.png);
+    background-size: contain;
+    float: left;
+    margin-right: 0.12rem;
+    margin-bottom:0.12rem;
+}
+.flash .block:last-child{
+    margin-right: 0;
+}
+.flash .block1{
+    margin-right: 0;
+}
+.flash .block .p1{
+    /* display: inline-block; */
+    font-weight: bold;
+    font-size: 0.32rem;
+    color: #020202;
+    margin-left: 0.3rem;
+    margin-top: 0.24rem;
+    float: left;
+}
+.flash .block .shijian{
+    float: left;
+    margin-top: 0.28rem;
+    margin-left: 0.15rem;
+}
+.flash .block .kuai{
+    width: 3.45rem;
+    height: 1.55rem;
+    float: left;
+}
+.flash .block .kuai .shop{
+    width: 1.55rem;
+    height: 1.55rem;
+    /* background-color: red; */
+    float: left;
+    margin-left: 0.175rem;
+    margin-top: 0.15rem;
+    position: relative;
+}
+.flash .block .kuai .shop:last-child{
+    margin-left: 0;
+}
+.flash .block .kuai .shop img{
+    width: 1.55rem;
+    height: 1.55rem;
+}
+.flash .block .kuai .shop .p2{
+    width: 1.29rem;
+    height: 0.24rem;
+    border: 0.01rem solid #FE1140;
+    box-sizing: border-box;
+    background-color: #FEECF0;
+    font-size: 0.24rem;
+    color: #ff0036;
+    text-align: center;
+    line-height: 0.24rem;
+    position: absolute;
+    bottom: 0.01rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+/* 天猫榜单 */
+.tmbd{
+    width: 7.5rem;
+    height: 7.33rem;
+    background-color: #FEFEFE;
+    margin-top: 0.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.tmbd .tou{
+    width: 7.02rem;
+    height: 0.6rem;
+    background-color:#FEFEFE;
+}
+.tmbd .tou .s3{
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #333;
+    line-height: 0.6rem;
+}
+.tmbd .bdan{
+    width: 7.02rem;
+    height: 2.99rem;
+    background-color:#FEFEFE;
+    margin-bottom: 0.12rem;
+}
+.tmbd .bdan .bd{
+    width: 2.26rem;
+    height: 2.73rem;
+    background-color:#F1E7E7;
+    float: left; 
+    margin-right: 0.12rem;
+    margin-top: 0.26rem;
+    position: relative;
+}
+.tmbd .bdan .bd:last-child{
+    margin-right: 0;
+}
+.tmbd .bdan .bd1{
+    width: 2.26rem;
+    height: 2.99rem;
+    margin-top: 0;
+    background-color: #F7F7F7;
+}
+.tmbd .bdan .bd .bdt{
+    width: 1.56rem;
+    height: 1.56rem;
+    background-color: #EAE0E0;
+    margin: auto;
+    margin-top: 0.35rem;
+}
+.tmbd .bdan .bd .bdt img{
+    width: 1.56rem;
+    height: 1.56rem;
+}
+.tmbd .bdan .bd .jianb{
+    width: 1.92rem;
+    height: 0.36rem;
+    background-image: url(../img/jianb.webp);
+    background-size: contain;
+    margin: auto;
+
+}
+.tmbd .bdan .bd .jianb .s4{
+    font-size: 0.24rem;
+    color: #fff;
+}
+.tmbd .bdan .bd .p4{
+    font-size: 0.24rem;
+    color: #000;
+    margin: 0.04rem;
+    text-align: center;
+}
+.tmbd .bdan .bd .logo2{
+    width: 0.63rem;
+    height: 0.45rem;
+    position: absolute;
+    /* background-color: #F0E6E6; */
+    top: 0rem;
+    left: 0rem;
+}
+.tmbd .bdan .bd .logo2 img{
+    width: 0.63rem;
+    height: 0.45rem;
+}
+.tmbd .bdan .bd1 .bdtu{
+    width: 1.46rem;
+    height: 1.46rem;
+    background-color: #EFEFEF;
+    margin: auto;
+    margin-top: 0.8rem;
+}
+.tmbd .bdan .bd1 .logo1{
+    width: 0.63rem;
+    height: 0.45rem;
+    position: absolute;
+    background-color: #F0E6E6;
+    top: 0;
+    left: 0;
+}
+.tmbd .bdan .bd .logo1 img{
+    width: 0.63rem;
+    height: 0.45rem;
+}
+.tmbd .xiaol{
+    width: 7.02rem;
+    height: auto;
+    background-color:#FEFEFE;
+    overflow: hidden;
+}
+.tmbd .xiaol .xl{
+    width: 3.45rem;
+    height: 1.69rem;
+    background-color:#F7F7F7;
+    float: left;
+    margin: 0.12rem 0.025rem 0 0.025rem;
+}
+.tmbd .xiaol .xl .xlleft{
+   width: 1.92rem;
+   height: 1.35rem;
+   background-color: #F7F7F7;
+   margin: 0.17rem 0 0 0.26rem;
+   float: left; 
+}
+.tmbd .xiaol .xl .xlleft .p5{
+    font-size: 0.24rem;
+    color:#c89d6b;
+}
+.tmbd .xiaol .xl .xlleft .p6{
+    font-size: 0.24rem;
+    color:#313131;
+    margin-top:0.25rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tmbd .xiaol .xl .xlleft .p7{
+    font-size: 0.24rem;
+    color:#999;
+    margin-top:0.05rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tmbd .xiaol .xl .xlright{
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: #EFEFEF;
+    margin: 0.17rem 0.1rem 0 0 ;
+    float: right; 
+}
+.tmbd .xiaol .xl .xlright img{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+/* 猜你喜欢 */
+.like{
+    width: 7.5rem;
+    height: auto;
+    overflow: hidden;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    background-color:#FEFEFE;
+    margin-top: 0.2rem;
+}
+.like .xitou{
+    width: 7.02rem;
+    height: 0.6rem;
+    background-color:#FEFEFE;
+}
+.like .xitou .s4{
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #333;
+    line-height: 0.6rem;
+}
+.like .love{
+    width: 7.02rem;
+    height: auto;
+    overflow: hidden;
+    background-color:#FEFEFE;
+}
+.like .love .loveshop{
+    width: 3.4rem;
+    height:5.4rem;
+    float: left;
+    background-color:#FEFEFE;
+    border: 0.01rem solid #F2F1F1;
+    box-sizing: border-box;
+    margin-top:0.1rem; 
+}
+.like .love .loveshop img{
+    width: 3.4rem;
+    height:5.4rem;
+}
+.like .love .loveshop1{
+    margin-right:0.2rem; 
+}
+.like .love .loveshop .shoptu{
+    width: 3.36rem;
+    height: 3.36rem;
+    background-color: #F6F6F6;
+    padding: 0.3rem 0.3rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.like .love .loveshop .shoptu .country{
+    width: 2.12rem;
+    height: 0.36rem;
+    margin-left: 0.2rem;
+    background-color: #CCA2B0;
+    position: absolute;
+    left: 0;
+    top: 3.18rem;
+}
+.like .love .loveshop .shoptu .country img{
+    width: 0.36rem;
+    height: 0.25rem;
+    margin-left: 0.1rem;
+    margin-top: 0.05rem;
+}
+.like .love .loveshop .shoptu .country .s5{
+    font-size: 0.24rem;
+    color: #fff;
+    font-weight: bold;
+    line-height: 0.36rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.like .love .loveshop .shoptu img{
+    width: 2.76rem;
+    height: 2.76rem;
+}
+.like .love .loveshop .linezi{
+    width: 3.36rem;
+    height: 1.34rem;
+    padding: 0.2rem 0.2rem 0 0.2rem;
+    box-sizing: border-box;
+    background-color:#FEFEFE;
+}
+.like .love .loveshop .linezi .p6{
+    font-size: 0.28rem;
+    color: #3e3e3e;
+    margin: 0.04rem 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.like .love .loveshop .linelogo{
+    width: 2.96rem;
+    height: 0.28rem;
+    background-color:#FEFEFE;
+    margin-top: 0.06rem;
+}
+.like .love .loveshop .linelogo .youhui1{
+    width: 1.24rem;
+    font-size: 0.24rem;
+    color: #FE224D;
+    background-color: #FEE0E6;
+    border: 0.01rem solid #FE224D;
+    float: left;
+}
+.like .love .loveshop .linelogo .youhui2{
+    width: 1rem;
+    font-size: 0.24rem;
+    color: #7DAFE8;
+    background-color: #E9F1FA;
+    border: 0.01rem solid #7DAFE8;
+    float: left;
+    margin-left: 0.1rem;
+}
+.like .love .loveshop .dollor{
+    width: 3.36rem;
+    height: 0.6rem;
+    background-color:#FEFEFE;
+}
+.like .love .loveshop .dollor .p7{
+    font-weight: bold;
+    font-size: 0.32rem;
+    color: #ff0000;
+    float: left;
+    margin-left: 0.2rem;
+    line-height: 0.6rem;
+}
+.like .love .loveshop .dollor .p8{
+    width: 1.08rem;
+    height: 0.46rem;
+    padding: 0 0.18rem;
+    box-sizing: border-box;
+    border-radius: 0.2rem;
+    background-color: #FEE5EA;
+    float: right;
+    margin: 0.12rem 0.2rem 0 0;
+    color: #ff0036;
+    font-size: 0.24rem;
+    line-height: 0.46rem;
+}
